@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Heart Rate</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+  <style>
+    * {color: white;
+    background-color: black;}
+  </style>
+</head>
+<body>
+  <h1>My Current Heart Rate:</h1>
+  <h2 id="heart-rate">Loading...</h2>
+  <h2>History:</h2>
+  <div class="chart-container" style="position: relative; height:40vh; width:50vw">
+    <canvas id="heart-rate-graph"></canvas>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
