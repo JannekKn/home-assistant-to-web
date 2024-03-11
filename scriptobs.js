@@ -1,5 +1,5 @@
 function updateHeartRate() {
-  fetch("get_heart_rate.php")
+  fetch("get_data.php")
     .then(response => response.text())
     .then(data => {
       const newHeartRate = parseInt(data);
